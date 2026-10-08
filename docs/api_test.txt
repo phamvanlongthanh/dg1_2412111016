@@ -1,0 +1,47 @@
+=== TEST GET /api/health ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+
+
+=== TEST GET /api/students ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+
+
+=== TEST GET /api/students?lop=241211 ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+
+
+=== TEST GET /api/students/1 ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+
+
+=== TEST GET /api/students/99 (404 Not Found) ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+
+
+=== TEST POST /api/students (400 Bad Request - Diem > 10) ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+
+
+=== TEST POST /api/students (201 Created) ===
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server

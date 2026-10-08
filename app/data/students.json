@@ -1,7 +1,14 @@
 [
-  {"id": 1, "mssv": "2412111008", "ho_ten": "Vo Anh Quan", "lop": "CT2802", "diem": 8.5},
-  {"id": 2, "mssv": "2412111006", "ho_ten": "Nguyen Minh Toan", "lop": "CT2801", "diem": 9.0},
-  {"id": 3, "mssv": "2412111061", "ho_ten": "Truong Quoc Viet", "lop": "AT2702", "diem": 7.8},
-  {"id": 4, "mssv": "2412111057", "ho_ten": "Nguyen Duc Minh", "lop": "TK2603", "diem": 8.2},
-  {"id": 5, "mssv": "2412111016", "ho_ten": "Hoang Van Du", "lop": "PS2504", "diem": 9.5}
+  {
+    "id": 1,
+    "ten": "Phạm Văn Long Thanh",
+    "lop": "241211",
+    "diem": 9.5
+  },
+  {
+    "id": 2,
+    "ten": "Vo Anh Quan",
+    "lop": "2412111008",
+    "diem": 8.5
+  }
 ]
