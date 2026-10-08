@@ -3,35 +3,35 @@
     "id": 1,
     "ten": "Phạm Văn Long Thanh",
     "MSSV": "2412111016",
-    "lop":"CT2802",
+    "lop": "CT2802",
     "diem": 9.5
   },
   {
     "id": 2,
     "ten": "Vo Anh Quan",
     "MSSV": "2412111008",
-    "lop":"CT2802",
+    "lop": "CT2802",
     "diem": 8.5
   },
   {
     "id": 3,
     "ten": "Nguyen Minh Toan",
     "MSSV": "2412111006",
-    "lop":"CT2801",
+    "lop": "CT2801",
     "diem": 9.0
   },
   {
     "id": 4,
     "ten": "Hoang Van Du",
     "MSSV": "2412111061",
-    "lop":"PS2504",
+    "lop": "PS2504",
     "diem": 8.8
-  }
- {
+  },
+  {
     "id": 5,
     "ten": "Nguyen Duc Minh",
     "MSSV": "2412111057",
-    "lop":"TK2603",
+    "lop": "TK2603",
     "diem": 8.2
-  },
+  }
 ]
