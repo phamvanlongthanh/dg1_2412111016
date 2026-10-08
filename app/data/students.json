@@ -4,8 +4,7 @@
     "ten": "Phạm Văn Long Thanh",
     "MSSV": "2412111016",
     "lop": "CT2802",
-    "diem": 9.5,
-    "ghi_chu": "Lớp trưởng"
+    "diem": 9.5
   },
   {
     "id": 2,
@@ -33,7 +32,6 @@
     "ten": "Nguyen Duc Minh",
     "MSSV": "2412111057",
     "lop": "TK2603",
-    "diem": 8.2,
-    "ghi_chu": "mai ve que"
+    "diem": 8.2
   }
 ]
