@@ -1,7 +1,3 @@
-# DG1 - Title on Main
+# DG1 – Phạm Văn Long Thanh – 2412111016
 
-## Web App
-Flask web application.
-
-## Deployment
-Run with docker compose.
+Hệ thống quản lý sinh viên.
