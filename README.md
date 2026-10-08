@@ -1,4 +1,4 @@
-# DG1 Project
+# DG1 - Title on Main
 
 ## Web App
 Flask web application.
