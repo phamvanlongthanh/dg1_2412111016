@@ -1,0 +1,24 @@
+*   9ef1806 fix: resolve merge conflict between main and develop
+|\  
+| * f8a32db docs: update readme title on develop branch
+| * 07b34c9 docs(docker): add deployment instructions to README
+| * b1424ea feat(docker): add docker compose configuration
+| * 59df7c5 feat(docker): add Dockerfile for flask service
+* | 6889952 docs: update readme title on main branch
+* |   9bbe98a Merge pull request #3 from phamvanlongthanh/develop
+|\ \  
+| * \   a121972 Merge pull request #2 from phamvanlongthanh/feature/docker
+| |\ \  
+| | |/  
+| |/|   
+| | * e7f5d69 docs(docker): add deployment instructions to README
+| | * e639020 feat(docker): add docker compose configuration
+| | * cc958f8 feat(docker): add Dockerfile for flask service
+| |/  
+| * 304b52c Merge pull request #1 from phamvanlongthanh/feature/web-app
+|/| 
+| * 4c6a5e4 docs(app): update web application info in README
+| * ab8fd96 feat(app): add main flask application script
+| * 1eacf8f feat(app): add requirements for flask app
+|/  
+* a977fa2 chore: init project
