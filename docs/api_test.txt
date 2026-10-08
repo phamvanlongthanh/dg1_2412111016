@@ -1,47 +1,75 @@
 === TEST GET /api/health ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: close
+
+{"status":"ok","student":"2412111016"}
 
 
 === TEST GET /api/students ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 134
+Connection: close
+
+[{"diem":9.5,"id":1,"lop":"241211","ten":"Ph\u1ea1m V\u0103n Long Thanh"},{"diem":8.5,"id":2,"lop":"2412111008","ten":"Vo Anh Quan"}]
 
 
 === TEST GET /api/students?lop=241211 ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 75
+Connection: close
+
+[{"diem":9.5,"id":1,"lop":"241211","ten":"Ph\u1ea1m V\u0103n Long Thanh"}]
 
 
 === TEST GET /api/students/1 ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 73
+Connection: close
+
+{"diem":9.5,"id":1,"lop":"241211","ten":"Ph\u1ea1m V\u0103n Long Thanh"}
 
 
 === TEST GET /api/students/99 (404 Not Found) ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+HTTP/1.1 404 NOT FOUND
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 30
+Connection: close
+
+{"error":"Student not found"}
 
 
-=== TEST POST /api/students (400 Bad Request - Diem > 10) ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+=== TEST POST /api/students (400 Bad Request) ===
+HTTP/1.1 400 BAD REQUEST
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: close
+
+{"error":"Diem must be between 0 and 10"}
 
 
 === TEST POST /api/students (201 Created) ===
-  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
-                                 Dload  Upload  Total   Spent   Left   Speed
-  0      0   0      0   0      0      0      0                              0
-curl: (7) Failed to connect to 127.0.0.1 port 5000 after 0 ms: Could not connect to server
+HTTP/1.1 201 CREATED
+Server: Werkzeug/3.1.5 Python/3.14.4
+Date: Thu, 08 Oct 2026 03:28:47 GMT
+Content-Type: application/json
+Content-Length: 54
+Connection: close
+
+{"diem":8.5,"id":3,"lop":"241211","ten":"Tran Van B"}
