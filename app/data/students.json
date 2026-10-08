@@ -10,5 +10,11 @@
     "ten": "Vo Anh Quan",
     "lop": "2412111008",
     "diem": 8.5
+  },
+  {
+    "id": 3,
+    "ten": "Tran Van B",
+    "lop": "241211",
+    "diem": 8.5
   }
 ]
